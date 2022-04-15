@@ -1,0 +1,36 @@
+.minha-historia{
+    width: 75%;
+    max-width: 1000px;
+    padding: 20px 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* border: 1px black solid; */
+}
+
+.minha-historia .coluna-text-minha-historia{
+    margin: auto 0;
+}
+
+.minha-historia .title-minha-historia{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.minha-historia .title-minha-historia h1{
+    text-align: left;
+    font-size: 35pt;
+    font-weight: bold; 
+    font-family: var(--fonts-principal);   
+}
+
+.minha-historia .text-minha-historia p{
+    text-align: left;
+    font-size: 12pt;
+    font-family: Poppins-Medium;
+}
+
+.minha-historia .imagem-minha-historia img{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 2em #2DB5FA;;
+}

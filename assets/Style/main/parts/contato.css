@@ -1,0 +1,19 @@
+.contato{
+    width: 75%;
+    padding: 20px 0;
+    margin: 0 auto;
+    /* border: 1px black solid; */
+}
+
+.contato .title-contato{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contato .title-contato h1{
+    text-align: left;
+    font-size: 35pt;
+    font-weight: bold;
+    color: #000;
+    font-family: var(--fonts-principal);
+}

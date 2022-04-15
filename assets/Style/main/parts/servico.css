@@ -1,0 +1,26 @@
+.servicos{
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+    background-color: #FCF608;
+    margin-top: 30px;
+    /* border: 1px black solid; */
+}
+
+.servicos .width-servico{
+    width: 95%;
+    margin: 30px auto;
+}
+
+.coluna-servicos{
+    margin-top: 30px;
+}
+
+.servicos h1{
+    transition: all 0.2s;
+    cursor: default;
+}
+
+.servicos h1:hover{
+    transform: scale(1.5);
+}

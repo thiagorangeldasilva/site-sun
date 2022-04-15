@@ -1,0 +1,47 @@
+.redes-socias{
+    display: flex;
+    float: right;
+    vertical-align: top;
+    margin: 12.8px 20px;
+}
+
+.redes-socias ul{
+    margin: 0;
+    padding: 0;
+}
+
+.redes-socias li{
+    display: inline-block;
+}
+
+.redes-socias a{
+    color: #fff;
+    font-family: Poppins-Light;
+    font-weight: 300;
+    font-size: 2rem;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.redes-socias a button{
+    background-color: var(--cor-button-primaria);
+    color: #fff;
+    font-family: var(--fonts-principal);
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    padding: 6px 30px;
+    border-radius: 38px;
+}
+
+.redes-socias li div a{
+    padding: 0px 2.5px;
+}
+
+.redes-socias a:hover, .redes-socias a.selected {
+    color: #f8d210;
+}
+
+.redes-socias a button:hover{
+    background-color: var(--cor-button-secundaria);
+}

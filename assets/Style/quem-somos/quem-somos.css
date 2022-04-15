@@ -1,0 +1,171 @@
+.conteudo_quem_somos .area_conteudo{
+    width: 90%;
+    max-width: 1200px;
+    min-height: 100vh;
+    background-color: var(--cor-bg-secundario);
+    margin: 0px auto;
+}
+
+.area_conteudo h1, .area_conteudo .video_yt{
+    margin: 0px auto;
+}
+
+.area_conteudo .paragrafo-quem-somos, .area_conteudo .img-valores, .area_conteudo .estacoes-lab, .area_conteudo .projetos-alunos, .area_conteudo .projetos-professores, .area_conteudo .projetos-universitario, .area_conteudo .projetos-torneio, .area_conteudo .projetos-oficina{
+    margin: 25px auto;
+}
+
+.area_conteudo .title-qs, .area_conteudo .title-sub{
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.area_conteudo .title-sub{
+    padding: 0;
+}
+
+.title-sub h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 200;
+}
+
+.area_conteudo h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.area_conteudo .video_yt{
+    text-align: center;
+}
+
+.video_yt iframe{
+    width: 0;
+    border-radius: 20px;
+}
+
+.area_conteudo .paragrafo-quem-somos p, .projetos-alunos p, .projetos-professores p, .projetos-universitario p, .projetos-torneio p, .projetos-oficina p{
+    font-family: var(--fonts-secundaria);
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--cor-texto-quem-somos-primaria);
+    margin-bottom: 15px;
+}
+
+.area_conteudo .paragrafo-quem-somos p:last-child{
+    margin-bottom: 0;
+}
+
+.area_conteudo .img-valores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-valores img{
+    margin: 0px auto;
+}
+
+.area_conteudo .estacoes-lab{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.area_conteudo .estacoes-lab div{
+    margin: 0 auto;
+}
+
+.area_conteudo .estacoes-lab div:first-child{
+    background-color: var(--cor-projetos-primaria);
+}
+
+.area_conteudo .estacoes-lab div:last-child{
+    background-color: var(--cor-projetos-secundaria);
+}
+
+.area_conteudo .estacoes-lab div img{
+    display: block;
+    width: 90%;
+    border-radius: 30%;
+}
+
+.estacoes-lab div h2, .estacoes-lab div img, .estacoes-lab div p, .estacoes-lab div ul{
+    margin: 15px auto;
+}
+
+.estacoes-lab div h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #EEEEEE; 
+}
+
+.estacoes-lab div p{
+    width: 90%;
+    font-family: var(--fonts-secundaria);
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #EEEEEE;
+}
+
+.estacoes-lab div ul{
+    width: 80%;
+}
+
+.estacoes-lab div ul li{
+    font-family: var(--fonts-secundaria);
+    font-size: 1.6rem;
+    color: #EEEEEE;
+    margin-bottom: 12px;
+}
+
+.estacoes-lab div ul li:last-child{
+    margin: 0;
+}
+
+.fotos-aluno, .fotos-professor, .fotos-torneio, .fotos-oficina{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotos-aluno div, .fotos-professor div, .fotos-torneio div{
+    width: 300px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.fotos-oficina div{
+    width: 225px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.fotos-universitario div{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.fotos-aluno div img, .fotos-professor div img, .fotos-universitario div img, .fotos-torneio div img, .fotos-oficina div img{
+    width: 100%;
+}
+
+.fotos-aluno div h2{
+    font-family: var(--fonts-terceiro);
+    font-size: 2rem;
+    margin: 15px auto;
+}
+
+.fotos-aluno div p, .fotos-professor div p, .fotos-oficina div p{
+    font-family: var(--fonts-secundaria);
+    font-size: 1.7rem;
+    font-weight: 100;
+    color: var(--cor-texto-quem-somos-primaria);
+}
+
+.projetos-professores h2, .projetos-universitario h2, .projetos-torneio h2, .projetos-oficina h2{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.3rem;
+    font-weight: 200;
+}
